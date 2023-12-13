@@ -1,2 +1,5 @@
 language: csharp
 solution: BlissEditor.sln
+dotnet: 7.0.306
+script:
+ - dotnet restore
