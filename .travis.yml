@@ -2,3 +2,6 @@ language: csharp
 solution: BlissEditor.sln
 dotnet: 6.0.300
 mono: none
+script:
+- dotnet restore BlissEditor.sln
+- dotnet build
