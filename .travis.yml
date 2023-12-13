@@ -1,6 +1,6 @@
 language: csharp
 solution: BlissEditor.sln
-dotnet: 6.0.300
+dotnet: 6.0.400
 mono: none
 script:
 - dotnet restore BlissEditor.sln
